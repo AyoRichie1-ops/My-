@@ -1,0 +1,207 @@
+.acontain {
+  background-color: black;
+  height: 100%;
+}
+.abouth2 {
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 45px;
+}
+.abouth6 {
+  color: white;
+  font-family: "Manrope", sans-serif;
+  width: 95%;
+}
+.aboutp {
+  color: #c7c7c7;
+  font-family: "manrope", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  width: 100%;
+}
+.aboutheading {
+  padding: 1rem;
+}
+.aboutlink {
+  background-color: #d3e97a;
+  padding: 0.2rem;
+  width: 100%;
+  border-radius: 15px;
+  align-items: center;
+  text-align: center;
+}
+.alink {
+  font-size: 10px;
+  color: black;
+  font-weight: 600;
+}
+.alinks {
+  display: flex;
+  gap: 1rem;
+}
+.capabilities {
+  width: 100%;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  color: white;
+  padding-left: 1rem;
+}
+.acapa {
+  border: 1px solid #484848;
+  color: white;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 0.8rem;
+  width: 75%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.divacapa {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 1rem;
+}
+.aboutpara {
+  padding-left: 1rem;
+  font-family: "manrope", sans-serif;
+  font-weight: 400;
+  color: #c7c7c7;
+  font-size: 12px;
+}
+.experienceh4 {
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 45px;
+  padding-left: 1rem;
+  padding-top: 2rem;
+}
+.experienceh3 {
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 23.4px;
+  letter-spacing: -0.01em;
+  color: white;
+  padding-left: 1rem;
+}
+.experienceh6 {
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-align: left;
+  color: #c7c7c7;
+  font-size: 12px;
+  padding-left: 1rem;
+  line-height: 0;
+}
+.experienceh5 {
+  color: #d3e97a;
+  padding-left: 1rem;
+  font-size: 12px;
+  line-height: 1;
+}
+.experiencep {
+  padding-left: 1rem;
+  width: 100%;
+  font-family: "manrope", sans-serif;
+  font-size: 10px;
+  color: #c7c7c7;
+}
+.pics2 {
+  width: 18rem;
+  height: 20rem;
+  border-radius: 10px;
+  margin-left: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 3.5rem;
+}
+@media (min-width: 375px) {
+  .pics2 {
+    width: 21rem;
+  }
+}
+@media (min-width: 425px) {
+  .pics2 {
+    width: 24.5rem;
+  }
+}
+@media (min-width: 768px) {
+  .abouth2 {
+    padding-left: 1.5rem;
+    width: 300px;
+  }
+  .aboutflex {
+    display: flex;
+  }
+  .aboutlink {
+    width: 50%;
+  }
+  .capaflex {
+    display: flex;
+  }
+  .capabilities {
+    width: 300px;
+    padding-left: 3rem;
+  }
+  .pics2 {
+    width: 400px;
+  }
+  .experienceh4 {
+    padding-top: 0;
+    padding-left: 3rem;
+  }
+  .experience {
+    padding-top: 2rem;
+    display: flex;
+    gap: 3rem;
+  }
+}
+@media (min-width: 1024px) {
+  .aboutpara {
+    width: 75%;
+  }
+  .acapa {
+    width: 50%;
+  }
+  .experience {
+    gap: 3rem;
+  }
+  .experiencep {
+    width: 50%;
+  }
+}
+@media (min-width: 1440px) {
+  .aboutflex {
+    gap: 20rem;
+  }
+  .abouth2 {
+    padding-left: 3.5rem;
+  }
+  .capabilities {
+    padding-left: 5rem;
+  }
+  .experienceh4 {
+    padding-left: 4rem;
+  }
+  .experience {
+    justify-content: space-between;
+  }
+  .experiencep {
+    width: 75%;
+  }
+  .capaflex {
+    gap: 26.5rem;
+  }
+  .pics2 {
+    width: 80rem;
+    height: 40rem;
+    margin-left: 4rem;
+  }
+  .formbody {
+    padding-left: 13rem;
+  }
+}

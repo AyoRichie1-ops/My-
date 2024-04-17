@@ -1,0 +1,350 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+.contain {
+  background-color: black;
+  /* height: 100%; */
+  /* width: 100%; */
+}
+
+.heading {
+  padding-top: 2rem;
+  padding-left: 1rem;
+}
+.name {
+  width: 50%;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  color: white;
+}
+.desc {
+  width: 90%;
+  font-family: "manrope", sans-serif;
+  color: #c7c7c7;
+}
+.homelink {
+  background-color: #d3e97a;
+  padding-top: 0.2rem;
+  width: 50%;
+  border-radius: 20px;
+  align-items: center;
+  text-align: center;
+  margin-left: -1rem;
+}
+.hlink {
+  font-size: 14px;
+  color: black;
+  font-weight: 600;
+}
+.hlinks {
+  padding-left: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+.arrow {
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  margin-left: 0.5rem;
+  padding: 0.4rem;
+}
+.pics {
+  width: 18rem;
+  height: 20rem;
+  border-radius: 10px;
+  margin-left: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 3.5rem;
+}
+.linebreak {
+  width: 100%;
+  height: 1px;
+  background-color: #484848;
+}
+.linkedin {
+  color: #d3e97a;
+  background-color: #474a3c;
+  padding: 0.5rem;
+  border-radius: 20px;
+  width: 50px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0.9rem;
+}
+.date {
+  padding-left: 1rem;
+  color: white;
+  font-family: "manrope", sans-serif;
+  font-size: 12px;
+  padding-bottom: 3rem;
+}
+
+.right {
+  font-size: large;
+}
+.github {
+  margin-left: 0.5rem;
+}
+.moreinfo {
+  padding-left: 1rem;
+  padding-top: 2rem;
+  color: #c7c7c7;
+  font-size: 14px;
+}
+.mlink {
+  padding-left: 1rem;
+  color: #d3e97a;
+  text-decoration: underline !important;
+  padding-bottom: 5rem;
+}
+.textunderline {
+  background-color: #d3e97a;
+  height: 1px;
+}
+.footer {
+  padding-left: 1rem;
+  color: white;
+  gap: 1rem;
+}
+.projectinfo {
+  color: white;
+  padding-left: 1rem;
+  padding-top: 2rem;
+  font-size: 16px;
+}
+.year {
+  display: flex;
+  padding-left: 1rem;
+  gap: 14rem;
+  padding-top: 1rem;
+}
+.role {
+  padding-top: 1rem;
+  display: flex;
+  gap: 7rem;
+  padding-left: 1rem;
+}
+.projectp1 {
+  color: white;
+}
+.externallink {
+  display: flex;
+  gap: 2rem;
+  padding-left: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+.projectp2 {
+  color: #c7c7c7;
+}
+.project1 {
+  width: 18rem;
+  height: 20rem;
+  border-radius: 10px;
+  margin-left: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 3.5rem;
+}
+.live {
+  font-family: "Manrope", sans-serif;
+  font-size: 12px;
+  color: #d3e97a;
+  text-decoration: underline !important;
+}
+.projectname {
+  padding-left: 1rem;
+  color: white;
+  font-family: "Manrope", sans-serif;
+}
+.projectdesc {
+  padding-left: 1rem;
+  width: 95%;
+  color: #c7c7c7;
+}
+.projects {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  color: white;
+  padding-left: 1rem;
+  padding-top: 2rem;
+}
+.projectsp {
+  padding-left: 1rem;
+  font-family: "Manrope", sans-serif;
+  line-height: 1.5;
+  color: #c7c7c7;
+}
+.aboutme2 {
+  display: none;
+}
+@media (min-width: 375px) {
+  .pics {
+    width: 21.5rem;
+  }
+  .year {
+    gap: 17rem;
+  }
+  .role {
+    gap: 10rem;
+  }
+  .project1 {
+    width: 21.5rem;
+  }
+}
+@media (min-width: 425px) {
+  .pics {
+    width: 25rem;
+  }
+  .project1 {
+    width: 25rem;
+  }
+  .year {
+    gap: 20rem;
+  }
+  .role {
+    gap: 13rem;
+  }
+}
+@media (min-width: 570px) {
+  .pics {
+    width: 32rem;
+    padding-right: 1rem;
+    margin-top: 1rem;
+  }
+  .project1 {
+    width: 32rem;
+    height: 18rem;
+    margin-top: 0;
+    padding-top: 2rem;
+    padding-right: 2rem;
+  }
+}
+@media (min-width: 768px) {
+  .aboutme {
+    display: none;
+  }
+  .aboutme2 {
+    display: block;
+    padding: 1rem 1rem 1rem 1rem;
+  }
+  .mlink {
+    padding-left: 0;
+  }
+  .year {
+    gap: 20rem;
+  }
+  .role {
+    gap: 13rem;
+  }
+  .flexheading {
+    display: flex;
+    gap: 2rem;
+  }
+  .flexproject {
+    display: flex;
+    gap: 2rem;
+  }
+  .homelink {
+    width: 200px;
+    padding-left: -1rem;
+  }
+  .hlinks {
+    padding-left: 1;
+  }
+  .pics {
+    width: 20rem;
+    padding-right: 1rem;
+    margin-top: 1rem;
+  }
+  .project1 {
+    width: 15rem;
+    height: 18rem;
+    margin-top: 0;
+    padding-top: 2rem;
+    padding-right: 2rem;
+  }
+  .bg {
+    background-color: #484848;
+    margin-left: 1rem;
+    width: 350px;
+    border-radius: 20px;
+    padding: 0.6rem;
+  }
+  .aboutme {
+    padding-bottom: 2rem;
+  }
+  .live {
+    font-size: larger;
+  }
+  .externallink {
+    padding-bottom: 2rem;
+    justify-content: right;
+    padding-right: 1rem;
+  }
+}
+@media (min-width: 1024px) {
+  .pics {
+    padding-right: 2rem;
+  }
+  .aboutme2 {
+    padding-left: 5rem;
+  }
+}
+@media (min-width: 1440px) {
+  .heading {
+    padding-left: 5rem;
+  }
+  .name {
+    width: 25%;
+  }
+  .desc {
+    width: 50%;
+  }
+  .pics {
+    width: 25rem;
+    height: 25rem;
+  }
+  .flexproject {
+    padding-left: 5rem;
+  }
+  .projectheading {
+    padding-left: 5rem;
+  }
+  .flexheading {
+    gap: 8rem;
+  }
+  .project1 {
+    width: 300px;
+    height: 200px;
+    border-radius: none;
+  }
+  .bg {
+    padding: 2rem;
+    height: 20rem;
+  }
+  .flexproject {
+    gap: 5rem;
+  }
+  .externallink {
+    align-items: center;
+    justify-content: center;
+  }
+  .year {
+    gap: 47rem;
+  }
+  .role {
+    gap: 40rem;
+  }
+  .aboutme {
+    padding-left: 5rem;
+  }
+}

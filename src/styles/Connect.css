@@ -1,0 +1,54 @@
+.profiles {
+  padding-left: 1rem;
+  display: flex;
+  gap: 2rem;
+}
+.profilelinks {
+  color: #d3e97a;
+  font-size: x-large;
+}
+.connecth4 {
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 45px;
+  padding-left: 1rem;
+  padding-top: 2rem;
+}
+.connectp {
+  font-family: "manrope", sans-serif;
+  font-size: 14px;
+  padding-left: 1rem;
+  color: #c7c7c7;
+  line-height: 0.51;
+}
+@media (min-width: 768px) {
+  .connectflex {
+    display: flex;
+    gap: 0rem;
+  }
+  .connecth4 {
+    padding-left: 3rem;
+  }
+  .connectp {
+    padding-left: 3rem;
+  }
+  .profiles {
+    padding-left: 3rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .connectflex {
+    gap: 10rem;
+    padding-bottom: 5rem;
+  }
+  .connecth4 {
+    padding-left: 5rem;
+  }
+  .connectp {
+    padding-left: 5rem;
+  }
+  .profiles {
+    padding-left: 5rem;
+  }
+}
